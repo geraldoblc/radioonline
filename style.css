@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #273240;
+    --cor1: #274b59;
+    --cor2: #4ebfd9;
+    --cor3: lightblue;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-h2: Cambria, Cochin, Georgia, Times;
+    --fonte-destaque: 'Bebas Neue', sans-serif, cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+picture img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.253);
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+p.top1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+main strong {
+    color: var(--cor0);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor0);
+}
+
+main a img {
+    margin: 15px;
+    max-width: 285px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.253);
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+div.video {
+    background-color: whitesmoke;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+audio {
+    background-color: var(--cor2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 95%;
+    position: relative;
+}
+
+header {
+    background-image: linear-gradient(0deg, #273240 , #4ebfd9);
+    min-height: 120px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > p {
+    color: whitesmoke;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 400px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
+}
+
+nav {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.226);
+    text-align: right;
+}
+
+nav > a {
+    color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
+
+input.checkbox {
+    width: 56px;
+}
+
+input.checkbox1 {
+    width: 49.5px;
+}
+
+input {
+    margin-top: 12px;
+    padding: 4px;
+    background-color: var(--cor2);
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color: var(--cor3);
+}
+
+main input {
+    background-color: whitesmoke;
+    width: 315px;
+    text-align: center;
+}
+
+main {
+    background-color: whitesmoke;
+    min-width: 320px;
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    font-weight: normal;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
+}
+
+h2 {
+    font-family: var(--fonte-h2);
+    color: var(--cor0);
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    background-color: var(--cor2);
+}
+
+h3 {
+    background-image: linear-gradient(90deg, #4ebfd9, whitesmoke);
+    font-family: var(--fonte-h2);
+    color: var(--cor0);
+    text-indent: 8px;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+aside {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.253);
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+h4 {
+    background-color: var(--cor0);
+    color: whitesmoke;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: var(--cor0);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
+
+footer a {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
